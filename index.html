@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="smooth sroll">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <nav>
+  <a onclick="scrInit('first'); return false;" href="#">Go to first section</a>
+  <a onclick="scrInit('second'); return false;" href="#">Go to second section</a>
+  <a onclick="scrInit('third'); return false;" href="#">Go to third section</a>
+  <a onclick="scrInit('fourth'); return false;"  href="#">Go to fourth section</a>
+  <a onclick="scrInit('fifth'); return false;"  href="#">Go to fifth section</a>
+  <a id="top" onclick="toTop(); return false;" href="#">Go to top</a>
+ </nav> 
+ <div id="first"><p>First section</p></div>
+  <div id="second"><p>Second section</p></div>
+  <div id="third"><p>Third section</p></div>
+  <div id="fourth"><p>Fourth section</p></div>
+  <div id="fifth"><p>Fifth section</p></div>
+</body>
+</html>
